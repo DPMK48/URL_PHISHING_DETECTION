@@ -1,0 +1,21 @@
+URL,Result,Reasons,Timestamp
+arareaw,Legit,,2025-07-14 21:22:26.823983
+.,Legit,,2025-07-14 21:22:38.382311
+ckoverflow.com/questions/73570041/flask-deprecated-before-first-request-how-to-update,Phishing,"URL is too long, Contains dash (-)",2025-07-14 21:23:14.928362
+nnfuwfe,Legit,,2025-07-14 21:29:09.511902
+https://pi-mart.vercel.app,Phishing,Contains dash (-),2025-07-15 10:24:28.500975
+https://linux-dev.vercel.app,Phishing,Contains dash (-),2025-07-15 10:24:53.525023
+https://verifyPimainet.app,Phishing,Contains suspicious keyword(s),2025-07-15 10:25:31.534478
+https://verifypimainnet.app,Phishing,Contains suspicious keyword(s),2025-07-15 10:25:45.912352
+https://verifypimainnet.vercel.app,Phishing,Contains suspicious keyword(s),2025-07-15 10:25:55.237273
+https://pimainnet.vercel.app,Safe,,2025-07-15 10:26:09.498358
+https://account.google.com,Phishing,Contains suspicious keyword(s),2025-07-15 10:26:28.896341
+asca,Phishing,"URL is missing a proper scheme (http:// or https://), Invalid domain structure, URL is malformed or incomplete",2025-07-15 11:08:05.686654
+.,Phishing,"URL is missing a proper scheme (http:// or https://), Invalid domain structure, URL is malformed or incomplete",2025-07-15 11:08:12.968132
+http://hosea.com,Phishing,Uses HTTP instead of HTTPS,2025-07-15 11:08:31.201145
+https://hosea.com,Safe,,2025-07-15 11:09:33.590783
+ss,Phishing,"Missing proper scheme (http:// or https://), Invalid domain structure",2025-07-15 15:24:21.152913
+http://dora.com,Safe,Uses HTTP instead of HTTPS,2025-07-15 15:25:15.805307
+http://dora.com-ng,Safe,Uses HTTP instead of HTTPS,2025-07-15 15:25:27.328736
+http://do@.ng,Phishing,"Contains '@' symbol, Uses HTTP instead of HTTPS",2025-07-15 15:25:39.951608
+http://dora.com,Safe,Uses HTTP instead of HTTPS,2025-07-15 15:25:59.941732

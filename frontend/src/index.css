@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #ebf4ff, #c3dafe);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4c51bf;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #5a67d8;
+  box-shadow: 0 0 0 2px rgba(90, 103, 216, 0.2);
+}
+
+.check-btn,
+.download-btn {
+  width: 100%;
+  padding: 0.75rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-bottom: 1rem;
+}
+
+.check-btn {
+  background-color: #5a67d8;
+  color: white;
+}
+
+.check-btn:hover {
+  background-color: #434190;
+}
+
+.download-btn {
+  background-color: #2d3748;
+  color: white;
+}
+
+.download-btn:hover {
+  background-color: #1a202c;
+}
+
+.result {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.result.red {
+  color: #e53e3e;
+}
+
+.result.green {
+  color: #38a169;
+}
+
+.reasons {
+  background-color: #f7fafc;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.reasons h3 {
+  margin-bottom: 0.5rem;
+  color: #4a5568;
+}
+
+.reasons ul {
+  margin: 0;
+  padding-left: 1rem;
+  color: #4a5568;
+  font-size: 0.95rem;
+}
