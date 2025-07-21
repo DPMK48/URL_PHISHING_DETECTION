@@ -1,0 +1,30 @@
+.quiz {
+  padding: 1rem;
+  text-align: left;
+  color: #fff;
+}
+
+.correct {
+  background-color: #b4f5c0;
+}
+
+.wrong {
+  background-color: #f9c0c0;
+}
+
+.restart {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: .5rem;
+  background-color: #001eff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+.restart:hover {
+  background-color: #001effb3;
+  transform: scale(1.05);
+}
